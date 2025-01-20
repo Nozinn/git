@@ -1,0 +1,75 @@
+.header {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.pm:hover {
+  color: rgb(255, 153, 0);
+}
+
+.button, .button1 {
+  padding: 10px 40px;
+  color: white;
+  background-color: rgb(255, 153, 0);
+  border: none;
+  border-radius: 4px;
+}
+
+.section1 {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.left {
+  width: 30%;
+  margin-top: 150px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.pser {
+  color: rgb(146, 154, 159);
+  margin-bottom: 50px;
+  font-size: 13px;
+}
+
+.section2 {
+  margin-left: 15%;
+  width: 25%;
+  margin-bottom: 120px;
+}
+.section2 h4 {
+  font-size: 25px;
+}
+
+.section3 {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.part1, .part2, .part3 {
+  width: 25%;
+}
+.part1 h5, .part2 h5, .part3 h5 {
+  font-size: 20px;
+}
+.part1 .porange, .part2 .porange, .part3 .porange {
+  color: rgb(255, 153, 0);
+}/*# sourceMappingURL=main.css.map */

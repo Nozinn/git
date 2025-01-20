@@ -1,0 +1,101 @@
+$color: rgba(255, 153, 0, 1);
+$grey: rgba(146, 154, 159, 1);
+
+
+
+@mixin sec{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+.header{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 40px; 
+}
+
+.pm:hover{
+    color: $color;
+}
+
+
+
+.button{
+    padding: 10px 40px;
+    color: white;
+    background-color: $color;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.button1{
+    @extend .button
+    
+}
+
+.section1{
+    @include sec;
+    margin-top: 80px;
+}
+
+.left{
+    width: 30%;
+    margin-top: 150px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.pser{
+    color: $grey;
+    margin-bottom: 50px;
+    font: {
+        size: 13px;
+    }
+}
+
+.section2{
+    margin-left: 15%;
+    width: 25%;
+    margin-bottom: 120px;
+    h4{
+        font-size: 25px;
+
+    }
+
+}
+
+.section3{
+    @include sec;
+    align-items: center;
+    gap: 50px;
+}
+
+.part1{
+    width: 25%;
+    h5{
+        font-size: 20px;
+    }
+
+    .porange{
+        color: $color;
+    }
+   
+}
+
+.part2, .part3{
+    @extend .part1;
+}
+
